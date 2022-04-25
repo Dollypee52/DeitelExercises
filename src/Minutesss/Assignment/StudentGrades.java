@@ -1,8 +1,9 @@
-package Assignment;
+package Minutesss.Assignment;
 
 import java.util.Scanner;
 
 public class StudentGrades {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int countA = 0;

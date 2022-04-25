@@ -14,7 +14,8 @@ public class Account {
         return balance;
     }
 
-    public void withdraw(double amount){ if(amount> 0 && balance > amount)
+    public void withdraw(double amount){
+        if(amount> 0 && balance > amount)
     { balance = balance - amount;}
     }
 }

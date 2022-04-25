@@ -11,6 +11,6 @@ double feet = input.nextDouble();
 
 double meter = feet * 0.305;
 
-System.out.print (feet + "feet is" +meter+ "meter");
+System.out.print (feet + " feet is " + meter + " meter ");
 }
 }

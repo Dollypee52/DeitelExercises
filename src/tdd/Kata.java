@@ -1,10 +1,23 @@
 package tdd;
 
 public class Kata {
-    public int add(int num1, int num2) {return num1 + num2;
+    public static int findMaximumFrom(int[] scores) {
+        int maximum = 0;
+        for (int i = 0; i <scores.length ; i++) {
+            if (maximum < scores[i])
+                maximum = scores[i];
+
+        }
+        return maximum;
     }
 
-    public int subtract(int num1, int num2) {if(num1 > num2)
+    public int add(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    public int subtract(int num1, int num2) {
+
+        if(num1 > num2)
     {return num1-num2;}
         return num2 - num1;
     }
