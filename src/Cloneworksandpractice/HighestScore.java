@@ -30,6 +30,6 @@ public class HighestScore {
         }
 
         }
-        System.out.println("The best student is "+bestStudent);
+        System.out.println("The best student is "+bestStudent+ " with " +largestNo);
     }
 }

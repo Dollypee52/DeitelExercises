@@ -6,6 +6,7 @@ public class Car {
     private String carYear;
     private double carPrice;
 
+
     public Car(String carModel, String carYear, double carPrice) {
         this.carModel = carModel;
         this.carYear = carYear;
