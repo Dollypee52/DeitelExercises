@@ -26,4 +26,12 @@ public class Entry {
         return body;
     }
 
+    @Override
+    public String toString(){
+       return String.format("""
+               Date: %s
+               Title: %s
+
+               Body: %s""",getDate(),getTitle(),getBody());
+    }
 }

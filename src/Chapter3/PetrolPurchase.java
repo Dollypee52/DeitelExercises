@@ -19,10 +19,6 @@ public class PetrolPurchase {
         this("Ikeja",petrolType,quantity,price,0.6);
     }
 
-    public PetrolPurchase(int quantity, double price){
-        this("Ikeja","good",quantity,price,0.6);
-    }
-
     public String getStationsLocation() {
         return stationsLocation;
     }

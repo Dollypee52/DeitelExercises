@@ -1,31 +1,28 @@
-//package DSA;
-//
-//public class Stack {
-//
-//    private int numberOfElements;
-//    private int[] element;
-//
-//    public boolean isEmpty() {
-//        return true;
-//    }
-//
-//    public boolean IsEmpty() {
-//        if(numberOfElements == 0) return true;
-//        else return false;
-//    }
-//
-//    public void push(int element) {
-//        numberOfElements++;
-//        this.element = element;
-//
-//    }
-//
-//    public int pop() {
-//        numberOfElements--;
-//        return element;
-//
-//    }
-//
-//    public int peek() {
-//    }
-//}
+package DSA;
+
+public class Stack {
+        int numberOfElements;
+        int[] elements = new int[10];
+
+        public boolean isEmpty() {
+            if (numberOfElements == 0) return true;
+            else return false;
+        }
+
+        public void push(int element) {
+            elements[numberOfElements] = element;
+            numberOfElements++;
+        }
+
+        public int pop() {
+            numberOfElements--;
+            return elements[numberOfElements];
+        }
+
+        public int peek() {
+            return elements[numberOfElements--];
+        }
+    }
+
+
+

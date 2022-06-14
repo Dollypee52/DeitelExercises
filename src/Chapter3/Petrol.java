@@ -13,17 +13,7 @@ public class Petrol {
         System.out.println("The price is "+petrolPurchase1.getPrice());
         System.out.println("The  Location is "+petrolPurchase1.getPetrolType());
 
-//        int[] array = new int[10];
-//
-//        //int[] studentAge = {23,34,54,23,21,22,32,12};
-//
-//        for (int i = 0; i < 10; i++) {
-//            array[i] = (i *2) + 2;
-//        }
-//
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println(array[i]);
-//        }
+
 
 
     }

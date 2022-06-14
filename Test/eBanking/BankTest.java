@@ -26,8 +26,8 @@ public class BankTest {
         @Test
         public void bankCanCreateAccount() {
             gtBank.createAccountFor("Saheed", "Osupa", "1234");
-            gtBank.createAccountFor("SAmaka", "Amazing", "1234");
-            gtBank.createAccountFor("SLanre", "Lan", "1234");
+            gtBank.createAccountFor("Amaka", "Amazing", "1234");
+            gtBank.createAccountFor("Lanre", "Lan", "1234");
             gtBank.createAccountFor("MyGuy", "Okoro", "1234");
             assertEquals(4, gtBank.getNumberOfCustomers());
         }

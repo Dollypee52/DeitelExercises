@@ -20,16 +20,18 @@ public class EntryTest {
     }
 
     @Test
-    public void entryCanBeCreated(){
+    public void entryCanBeCreatedTest(){
         assertNotNull(entry);
 
     }
     @Test
-    public void dateCanBeAdded(){
+    public void dateCanBeAddedTest(){
+
+
         assertEquals(date,entry.getDate());
     }
     @Test
-    public void titleCanBeCreated(){
+    public void titleCanBeCreated() {
         assertEquals("flex",entry.getTitle());
     }
     @Test

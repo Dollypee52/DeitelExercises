@@ -10,7 +10,6 @@ public class Extremes {
         int sum = 0;
         Scanner input = new Scanner(System.in);
         System.out.println("enter the number");
-        int n = input.nextInt();
         num = input.nextInt();
         smallest = num;
         for (int i = 1; i < 5; i++) {

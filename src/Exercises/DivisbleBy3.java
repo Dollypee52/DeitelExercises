@@ -13,6 +13,6 @@ public class DivisbleBy3 {
      if (number1 % 3 != 0){
          System.out.println("It is not divisible by 3");
      }
-
+        System.out.println();
     }
 }
