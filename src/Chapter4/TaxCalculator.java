@@ -2,10 +2,14 @@ package Chapter4;
 
 import java.util.Scanner;
 
-public class TaxCalculator {
+public class TaxCalculator{
+    private String names;
+    private double earnings;
 
-    public static void main(String[] args) {
-     Scanner input = new Scanner(System.in) ;
+    public TaxCalculator(String names, double earnings){
+        this.names = names;
+        this.earnings = earnings;
+
 
 
 
