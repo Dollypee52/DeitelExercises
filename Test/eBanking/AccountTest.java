@@ -12,11 +12,13 @@ public class AccountTest {
         @Test
         @BeforeEach
         public void startsWith(){
+
             account = new Account("2015347", "AJALA", "Tolu","1234");
         }
 
         @Test
         public void accountCanBeCreatedTest(){
+
             assertNotNull(account);
         }
 
