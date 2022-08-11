@@ -24,6 +24,7 @@ public class AccountTest {
 
         @Test
         public void accountCanBeCreatedWithAllDetailsTest(){
+
             assertEquals("2015347",account.getAccountNumber());
         }
 
