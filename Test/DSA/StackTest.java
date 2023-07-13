@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class StackTest {
-    private Stack stack;
+    private Main stack;
 
     @BeforeEach
     public void startWithThis() {
-        stack = new Stack();
+        stack = new Main();
     }
 
     @Test
